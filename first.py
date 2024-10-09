@@ -100,7 +100,6 @@ else:
     print("Year is not leap")
 """
 
-
 # name = "Alice "
 # print(length(" "))
 
@@ -146,17 +145,73 @@ else:
 
 # a = ['apple', 'banana', 'cherry']
 # print(len(a))
+#
+# a, b = map(int, input('sonlarni kiriting: ').split())
+# c = input('Operatorni belgilang: ')
+# if c == "+":
+#     print(f'Yigindi: {a + b}')
+# elif c == '-':
+#     print(f'Ayirma: {a - b}')
+# elif c == '/':
+#     print(f'Bolish: {a / b}')
+# elif c == '*':
+#     print(f'Kopaytirish: {a * b}')
+# else:
+#     print('Operator xato belgilandi?')
+#
 
-a, b = map(int, input('sonlarni kiriting: ').split())
-c = input('Operatorni belgilang: ')
-if c == "+":
-    print(f'Yigindi: {a + b}')
-elif c == '-':
-    print(f'Ayirma: {a - b}')
-elif c == '/':
-    print(f'Bolish: {a / b}')
-elif c == '*':
-    print(f'Kopaytirish: {a * b}')
-else:
-    print('Operator xato belgilandi?')
+
+
+
+""" 5 - masala """
+
+# a = input()
+#
+# print(len(a) * 10 * " " + a)
+#
+# for i in range(1, 10):
+#     print(((10 - i) * len(a)) * ' ' + (2 * i * a + a))
+#
+""" 6 - masala """
+
+# a = input()
+#
+# print(f"""
+# {a}{8 * ' '}{a}
+#  {a}{6 * ' '}{a}
+#   {a}{4 * ' '}{a}
+#    {a}  {a}
+#     {a}{a}
+#    {a}  {a}
+#   {a}{4 * ' '}{a}
+#  {a}{6 * ' '}{a}
+# {a}{8 * ' '}{a}
+# """)
+
+"""7 - masala """
+
+a = input()
+
+"""First version """
+
+print(f"""
+{a * 7}
+{6 * len(a) * ' ' + a}
+{5 * len(a) * ' ' + a}
+{4 * len(a) * ' ' + a}  
+{3 * len(a) * ' ' + a}  
+{2 * len(a) * ' ' + a}  
+{' ' + a}
+{a * 7}  
+""")
+
+"""Second version"""
+
+print(a * 8)
+for i in range(7, 0, -1):
+	print(i * len(a) * ' ' + a )
+print(a * 8)
+
+""" 8 - masala """
+
 

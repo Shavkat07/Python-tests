@@ -53,7 +53,7 @@ print(dom_number,  "inchi dom")
 print(etaj_num, "inchi etaj")
 
 """
-from django.template.defaultfilters import length
+# from django.template.defaultfilters import length
 
 # is_student = True
 # is_gradueted = False
@@ -161,8 +161,6 @@ else:
 #
 
 
-
-
 """ 5 - masala """
 
 # a = input()
@@ -174,19 +172,19 @@ else:
 
 """ 6 - masala """
 
-a = input()
-
-print(f"""
-{a}{8 * ' '}{a}
- {a}{6 * ' '}{a}
-  {a}{4 * ' '}{a}
-   {a}  {a}
-    {a*2}
-   {a}  {a}
-  {a}{4 * ' '}{a}
- {a}{6 * ' '}{a}
-{a}{8 * ' '}{a}
-""")
+# a = input()
+#
+# print(f"""
+# {a}{8 * ' '}{a}
+#  {a}{6 * ' '}{a}
+#   {a}{4 * ' '}{a}
+#    {a}  {a}
+#     {a * 2}
+#    {a}  {a}
+#   {a}{4 * ' '}{a}
+#  {a}{6 * ' '}{a}
+# {a}{8 * ' '}{a}
+# """)
 
 """7 - masala """
 
@@ -194,6 +192,7 @@ print(f"""
 
 """First version """
 
+# a = input()
 # print(f"""
 # {a * 7}
 # {6 * len(a) * ' ' + a}
@@ -201,15 +200,16 @@ print(f"""
 # {4 * len(a) * ' ' + a}
 # {3 * len(a) * ' ' + a}
 # {2 * len(a) * ' ' + a}
-# {' ' + a}
+# {len(a) * ' ' + a}
+# {a}
 # {a * 7}
-# """)
+#  """)
 
 """Second version"""
-
+# a = input()
 # print(a * 8)
 # for i in range(7, 0, -1):
-# 	print(i * len(a) * ' ' + a )
+# 	print(i * len(a) * ' ' + a)
 # print(a * 8)
 
 """ 8 - masala """
@@ -218,4 +218,249 @@ print(f"""
 
 # a = 'Ssdf Ssdf SSDFsdf'
 # print(a.casefold())
+
+""" Vazifalar """
+
+""" 1 - masala """
+# a = input()
+# b = input()
+# print(a + ' ' + b)
+
+""" 2 - masala """
+# a = input("Ismingiz: ")
+# b = input("Yoshingiz: ")
+#
+# print(f" Sizning ismingiz {a}, yoshingiz {b}. ")
+
+""" 3 - masala """
+
+# matn = "hello My name is Shavkat"
+#
+# print("Katta harflarda: " + matn.upper())
+# print("Kichik harflarda: " + matn.lower())
+# print("Sarlavha usulida: " + matn.title())
+# print("Birinchi harfini katta qilib: " + matn.capitalize())
+#
+#
+
+""" 4 - masala """
+
+# matn = "    Man ismim Shavkat. Hello world    "
+# matn = input()
+#
+# print(matn.strip())
+# print(matn.rstrip())
+# print(matn.lstrip())
+
+""" 5 - masala """
+
+# name = input("Ismingiz: ")
+# age = input("Yoshingiz: ")
+# color = input("Sevimli rangiz: ")
+#
+# print(f"Salom, sizning ismingiz {name}, yoshingiz {age}, Sevimli rangiz {color}")
+
+
+""" 6 - masala """
+
+# name = input("Ismingi kichik harflarda: ")
+#
+# print(name.upper())
+# print(name.capitalize())
+
+""" 7 - masala """
+
+# a = int(input())
+# b =  int(input())
+
+# print(a+b)
+# print(a-b)
+# print(a*b)
+# print(a/b)
+# print(a**b)
+
+""" 8 - masala """
+
+# a = float(input())
+# b = float(input())
+
+# print(a ** 2)
+# print(b ** 2)
+# print(a / b)
+
+""" 9 - masala """
+
+# def determine_type(user_input):
+#     # Попробуем преобразовать строку с помощью eval
+#
+#     result = eval(f"""type({user_input})""")
+#     return f"Тип данных: {result.__name__}"
+#
+# # Получаем ввод от пользователя
+# user_input = input("Введите данные: ")
+#
+# # Определяем тип данных
+# print(determine_type(user_input))
+
+
+#
+# """ length funksiyasi django dan import qilingan ekan """
+
+
+# a, b = map(int, input().split())
+#
+# print(len(range(a,b+1)))
+
+# a = int(input())
+# if a % 2 == 0: print(a)
+# else: print(a * 2)
+#
+#
+#
+# b = int(a) % 100
+# # # if len(str(a)) == 3 and a % 100 != 0 and a % 10 != 0:
+# # # 	print(words.get(a // 100) + ' yuz ' + words.get(a % 100 // 10 * 10) + ' ' + words.get(a % 10))
+
+
+# a = int(input())
+# words = {
+# 	0: '',
+# 	1: 'bir', 2: 'ikki', 3: 'uch', 4: "to’rt", 5: 'besh', 6: 'olti', 7: 'yetti', 8: 'sakkiz', 9: "to’qqiz", 10: "o’n",
+# 	20: 'yigirma', 30: "o’ttiz", 40: "qirq", 50: "ellik", 60: "oltmish", 70: "yetmish", 80: "sakson", 90: "to’qson",
+# 	100: "bir yuz",
+# 	1000: "bir ming"}
+#
+#
+# if len(str(a)) == 3:
+# 	answer = words.get(a // 100) + ' yuz ' + words.get(a % 100 // 10 * 10) + ' ' + words.get(a % 10)
+# 	print(answer.strip())
+# elif len(str(a)) == 2:
+# 	print((words.get(a % 100 // 10 * 10) + ' ' + words.get(a % 10)).strip())
+# elif len(str(a)) == 1:
+# 	print(words.get(a))
+# else:
+# 	print(words.get(1000))
+
+''' Python sanoq sistemalari bilan ishlash '''
+
+"""
+a = 0b111111100101
+b = 0o11111110013242346701
+
+print(type(a))
+print(int("z", 36))
+print(bin(123),
+      '\n', hex(999999999),
+      '\n', oct(127))
+
+"""
+
+"""Sonni istalgan sanoq sistemasiga o'girish"""
+
+#
+# x = int(input("O'nlik sanoqdagi son: "))
+# base = int(input("Nechchilik sanoqga: "))
+#
+# while x > 0:
+# 	digit = x % base
+# 	print(digit, end='')
+# 	x //= base
+#
+
+
+# print(int('z', base=36))
+
+""" 15 masala """
+
+# print(
+#       f' Yuzasi: {2 * 3.14 * float(input()) ** 2}', '\n',
+#       f' Uzunligi: {2 * 3.14 * float(input())}'
+#       )
+
+"""" 10 masala  """
+
+# a = float(input())
+# b = float(input())
+#
+# print(min(a, b))
+""" 11 masala """
+
+# a = map(int, input().split())
+# print(sum(a) / 3)
+
+""" 12 masala """
+#
+# print(lambda a=int(input()): print(a ** 0.5))
+
+# print(int(input()) ** 0.5)
+
+
+"""  1 masala """
+
+# print(int(input()) // 100)
+
+"""2 masala """
+
+# print(int(input()) // 1000)
+
+""" 3 masala """
+
+# print(int(input()) // 1024)
+
+""" 4 masala """
+
+# a, b = map(int, input().split())
+
+# print(a // b)
+
+""" 5 masala """
+
+# a, b = map(int, input().split())
+#
+# print(a // b)
+# print(a % b)
+
+""" 6 masala """
+# a = int(input())
+# print(a // 10, '\n', a % 10)
+
+# for i in input(): print(i)
+
+""" 7 masala """
+
+# a = int(input())
+# print(a // 10 + a % 10)
+
+"""  8 masala  """
+
+# print(input()[-1: -3: -1])
+
+""" 9 masala  """
+
+# print(int(input()) // 100 )
+
+""" 10 masala  """
+
+# print(input()[-1:-3:-1])
+
+
+""" 11 masala """
+
+# a = int(input())
+# print(a // 100 + a // 10 % 10 + a % 10)
+
+""" 12 masala """
+
+# print(input()[-1:-4:-1])
+
+""" 13 masala  """
+
+# a = int(input())
+# b = a % 100 * 10 + a // 100
+# print(b)
+# print(f'{a[1]}{a[2]}{a[0]}')
+
+
+
+
 

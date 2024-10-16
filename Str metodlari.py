@@ -2,8 +2,8 @@ a = "salom dunyo. Mening ismim Shavkat. senikichi?"
 b = "1salom123"
 
 """
-g = a.capitalize()  # faqat boshidagi 1inchi elem.ni Katta qiladi qolganlarini kichraytiradi.
-c = a.title()     # barcha  so'zlarning 1chi elem.ni Katta harfga o'zgartiradi
+g = a.capitalize()  # faqat boshidagi 1 inchi elem.ni Katta qiladi qolganlarini kichraytiradi.
+c = a.title()     # barcha  so'zlarning 1chi elem.ni Katta harfga o'zgartiradie
 d = a.casefold()   #barcha elementlar pastgi register bo'ladi
 e = a.lower()   #barcha elementlar pastgi register bo'ladi faqat ba'zi ele.ni o'tkazib yuboradi.
 f = b.isalnum()  #satrda bironta ham simbvol bo'lmasa True qaytaradi

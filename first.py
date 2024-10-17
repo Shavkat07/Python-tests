@@ -461,6 +461,181 @@ print(bin(123),
 # print(f'{a[1]}{a[2]}{a[0]}')
 
 
+""" 1 masala  """
+# a = int(input())
+# b = int(input())
+# x = a - b
+# print(x)
+
+""" 2 masala """
+
+# a = int(input())
+# b = int(input())
+# x = a > b
+# print(x)
+
+""" 3 masala """
+
+# a = int(input())
+# b = int(input())
+# x = a >= b
+# print(x)
+
+""" 4 masala """
+
+# a = int(input())
+# b = int(input())
+# x = a / b
+# print(x)
+
+""" 5 masala """
+
+# a = int(input())
+# b = int(input())
+# x = a // b
+# print(x)
+
+""" 6 masala """
+
+# a = int(input())
+# b = int(input())
+# x = a % b
+# print(x)
+
+"""  10 masala """
+
+# s = int(input())
+# r = float(input())
+# l = 2 * 3.14 * r
+# print(f' {s // l} marta aylanadi. ')
 
 
+"""  11 masala """
 
+# mahsulat_soni = int(input())
+# ishchilar = int(input())
+#
+# print(mahsulat_soni // 3 // ishchilar  // 8)
+
+
+"""  1 masala """
+
+# print(int(input("Sonni kiriting: ")) > 0)
+
+""" 6 masala """
+# a = int(input())
+# b = int(input())
+# c = int(input())
+#
+# print(a <= b <= c)
+
+""" 7 masala  """
+#
+# a = int(input())
+# b = int(input())
+# c = int(input())
+#
+# print( a > b > c or c > b > a )
+
+""" 8 masala  """
+
+# a = int(input())
+# b = int(input())
+#
+# print( a % 2 == 1 and b % 2 == 1)
+""" 9 masala """
+
+# a = int(input())
+# b = int(input())
+#
+# print( a % 2 == 1 or b % 2 == 1)
+
+""" 10 masala """
+
+# a = int(input())
+# b = int(input())
+#
+# print( a % 2 == 1 and b % 2 == 0 or (a % 2 == 0 and b % 2 == 1))
+
+""" 11 masala """
+
+# a = int(input())
+# b = int(input())
+#
+#
+# print((a % 2 == 0 and b % 2 == 0) or (a % 2 == 1 and b % 2 == 1))
+
+""" 12 masala  """
+
+# a = int(input())
+# b = int(input())
+# c = int(input())
+#
+# print(a > 0 and b > 0 and c > 0)
+
+""" 13 masala  """
+
+# a = int(input())
+# b = int(input())
+# c = int(input())
+#
+# print(a > 0 or b > 0 or c > 0)
+
+""" 14 masala  """
+# a = int(input())
+# b = int(input())
+# c = int(input())
+#
+# print((a > 0 and b < 0 and c < 0) or (a < 0 and b > 0 and c < 0) or (a < 0 and b < 0 and c > 0))
+""" 15 masala """
+
+# a = int(input())
+# b = int(input())
+# c = int(input())
+# a = 5
+# b = 9
+# c = 1
+#
+# print((a > 0 and b > 0 and c < 0) or (a > 0 and b < 0 and c > 0) or (a < 0 and b > 0 and c > 0))
+
+""" 16 masala  """
+
+# a = int(input())
+#
+# print(a % 2 == 0 and 100 > a >= 10)
+
+""" 17 masala  """
+# a = int(input())
+
+# print( a % 2 == 1 and 100 <= a < 1000)
+
+""" 18 masala  """
+# a = 0
+# b = 9
+# c = 9
+#
+# print(a == b != c or a != b == c or a == c != b)
+
+
+""" 19 masala  """
+
+# a = -9
+# b = -9
+# c = 9
+#
+# print(a + b == 0 or b + c == 0 or a + c == 0)
+
+
+"""  20 masala  """
+# a = int(input())
+#
+# print((a // 100) != (a % 100 // 10) != (a % 10) and (a // 100) != (a % 10))
+
+""" 21 masala """
+
+# a = int(input())
+# print((a // 100) < (a % 100 // 10) < (a % 10))
+# a = 123
+# print((a // 100) == (a % 100 // 10 - 1) and (a % 100 // 10) == (a % 10 - 1))
+
+""" 22 masala """

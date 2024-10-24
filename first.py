@@ -638,4 +638,266 @@ print(bin(123),
 # a = 123
 # print((a // 100) == (a % 100 // 10 - 1) and (a % 100 // 10) == (a % 10 - 1))
 
-""" 22 masala """
+""" 24 masala """
+
+# a, b, c = map(int, input().split())
+#
+# print((b ** 2 - 4 * a * c) >= 0)
+
+""" 25 masala """
+#
+# x = int(input())
+# y = int(input())
+# print(x < 0, y > 0)
+
+""" 26 masala """
+
+# x = int(input())
+# y = int(input())
+# print(x > 0, y < 0)
+
+
+""" 27 masala """
+# x = int(input())
+# y = int(input())
+# print(x > 0 and y < 0 or x < 0 and y < 0)
+
+""" 28 masala """
+
+# x = int(input())
+# y = int(input())
+# print(x > 0 and y > 0 or x < 0 and y < 0)
+
+""" 29 masala """
+# x, y = 2, 2
+# x1, y1 = 3, 1
+# x2, y2 = 1, 3
+#
+# # x1 > x2 or y1 > y2
+# print((x1 > x > x2) and ( y1 < y < y2))
+
+
+""" 30 masala  """
+
+# a = int(input())
+# b = int(input())
+# c = int(input())
+# print(a == b == c)
+
+""" 31 masala  """
+
+# a = int(input())
+# b = int(input())
+# c = int(input())
+# print(a == b != c or a != b == c or a == c != b)
+
+""" 32 masala  """
+
+# a = int(input())
+# b = int(input())
+# c = int(input())
+#
+# print(a ** 2 + b ** 2 == c ** 2)
+""" 33 masala  """
+# a = int(input())
+# b = int(input())
+# c = int(input())
+#
+# print(a + b > c or a + c > b or b + c > a)
+
+""" 34 masala  """
+# x = int(input())
+# y = int(input())
+#
+# print((x + y) % 2 == 1)
+
+
+""" 35 masala  """
+
+# x1, y1 = 4 , 3
+# x2, y2 = 2, 3
+#
+# print((x1 + y1) % 2 == 1 and (x2 + y2) % 2 == 1 or (x1 + y1) % 2 == 0 and (x2 + y2) % 2 == 0)
+
+
+""" 36 masala  """
+# x1, y1 = 4 , 3
+# x2, y2 = 2, 3
+#
+# print(x1 == x2 and y1 != y2 or x1 != x2 and y1 == y2)
+
+""" 37 masala  """
+# x1, y1 = 1, 1
+# x2, y2 = 1, 2
+#
+#
+# def generate_pairs(x, y):
+# 	pairs = []
+# 	for i in [x-1, x, x+1]:
+# 		for j in [y-1, y, y+1]:
+# 			pairs.append((i, j))
+# 	pairs.remove((x1,y1))
+# 	return pairs
+#
+# # print(generate_pairs(x1, y1))
+#
+# print((x2, y2) in generate_pairs(x1, y1))
+
+""" 38 masala """
+
+# x1, y1 = 8, 6
+# x2, y2 = 6, 8
+#
+# print(abs(x1  - x2) == abs(y1 - y2))
+
+""" 39 masala """
+#
+# x1, y1 = 4, 3
+# x2, y2 = 5, 5
+#
+# a = x1 == x2 and y1 != y2 or x1 != x2 and y1 == y2
+# b = x1 - x2 == y1 - y2
+# print(a or b)
+
+""" 40 masala  """
+
+# x1, y1 = 4, 3
+# x2, y2 = 5, 1
+#
+# pairs = []
+# a = [(y1 - 1), (y1 + 1)]
+#
+# for i in [x1 - 2, x1 + 2, x1 + 1, x1 - 1, ]:
+# 	if i == x1 + 1:
+# 		a.clear()
+# 		a.extend([(y1 - 2), (y1 + 2)])
+# 	for j in a:
+# 		pairs.append((i, j))
+#
+# print(pairs)
+# print( (x2, y2) in pairs)
+
+
+""" 25 misol """
+# kun = 1
+# hafta = ["Yakshanba", "Dushanba", "Seshanba", "Chorshanba", "Payshanba", "Juma", "Shanba"]
+#
+# jav = kun % 7
+# print(hafta[jav - 4])
+
+""" 27 masala """
+# kun = 2
+# hafta = ["Dushanba", "Seshanba", "Chorshanba", "Payshanba", "Juma", "Shanba", "Yakshanba", ]
+# #
+# jav = kun % 7
+# print(hafta[jav-2])
+
+
+""" Topshiriq 1 """
+
+# list1 = [4, 6, 7, 8, 89, 9, 5, 4, 3]
+#
+# list1.append(64)
+#
+# list1.sort()
+# print(list1[-1])
+
+""" Topshiriq 2  """
+# list1 = [4, 6, 7, 8, 89, 9, 5, 4, 3]
+#
+# list1.append(64)
+#
+# list1.sort()
+# print(list1[0])
+
+""" Topshiriq 3 """
+
+# a = input()
+#
+# list1 = [4, 6, 7, 8, 89, 9, 5, 4, 3]
+#
+# l = len(list1) // 2
+# list1.insert(l, a)
+# print(list1)
+
+""" vazifa 1 """
+
+# fruits = ('apple', 'banana', 'cherry', 'orrange', 'kiwi')
+#
+# print(fruits[0], ' va ', fruits[4])
+# print(fruits[2])
+
+""" vazifa 2 """
+
+# numbers = (1,2,3,4,5,56,3,4,6,3,5,3,5,3,5,3,23,)
+#
+# print(numbers.count(2))
+
+""" vazifa 3 """
+
+# my_tupple = ('red', 'blue', 'green')
+#
+# my_list = list(my_tupple)
+# my_list.append("Yellow")
+#
+# my_tupple = tuple(my_list)
+# print(my_tupple)
+
+""" vazifa 4 """
+
+# letters = ('a', 'b', 'c', 'd', 'e')
+#
+# print(letters[-1: -6: -1])
+
+""" vazifa 5 """
+
+# nested_tuple = (1,3,3,4,(5,56,7,87),6,4,)
+
+# print(nested_tuple[4][1])
+
+# for i in nested_tuple:
+# 	if type(i) == tuple:
+# 		for j in i:
+# 			print(j)
+# 	else: print(i)
+
+
+# for i in nested_tuple:
+# 	for j in i:
+# 		print(j)
+
+""" vazifa 6 """
+
+# my_tuple = 10, 20, 30, 40, 50
+#
+# list2 = list(my_tuple)
+# list2.append(60)
+# tuple2 = tuple()
+#
+# print(tuple(tuple2))
+
+""" vazifa 7 """
+
+# tuple1 = 1,2,3
+#
+# tuple2 = 4,5,6
+#
+# tuple3 = tuple1 + tuple2
+#
+# print(tuple3)
+
+""" topshiriq  1   """
+# numbers = [10, 20, 30, 40, 50, 30, 30 ,30, 30,]
+#
+# print(numbers)
+
+
+
+
+
+""" topshiriq 2 """
+
+""" topshiriq 3 """
+# my_list = ['Ali', 'Olim', 'Zarina', 'Jasur', 'Sabina']
+#
+# print(my_list.index('Zarina'))

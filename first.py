@@ -892,12 +892,37 @@ print(bin(123),
 # print(numbers)
 
 
-
-
-
 """ topshiriq 2 """
 
 """ topshiriq 3 """
 # my_list = ['Ali', 'Olim', 'Zarina', 'Jasur', 'Sabina']
 #
 # print(my_list.index('Zarina'))
+
+""" 16 topshiriq """
+
+# alphabet = ('a', 'b', 'c', 'd', 'e', 'f', 'g')
+
+# a = alphabet[0:3]
+# print(a)
+# print(alphabet[-3::1])
+
+""" 17 topshiriq """
+
+# for i in ['Ali', 'Olim', 'Zarina', 'Jasur']:
+# 	print(f'{i} talaba')
+
+
+""" 18 topshiriq """
+
+# for i in (22, 25, 28, 30, 27, 23): print(i)
+
+
+""" 19 topshiriq """
+# b = 0
+# for i in [1, 5, 'banana', 10, 'apple', 20]:
+# 	if type(i) == int:
+# 		b += i
+# print(b)
+
+""" 17 topshiriq """

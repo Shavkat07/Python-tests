@@ -1,19 +1,15 @@
-print("Ataeva Diana")
+# a = 78
+#
+# myList = [1, 3, 4, 6, 7, 8, 10, 12, 23, 45, 56, 78, 99]
+# c = 0
 
-
-
-
-#print("Ataeva Diana")
-# name  = "Diana"
-# age = True
-# is_read = True
-# legth  = 162.2
-
-
-# a = 1234
-# b = 123456
-# v = a + b
-# print(v)
+# while myList[c] != a:
+# 	c = c + 1
+# 	if c == len(myList):
+# 		print(None)
+# 		break
+# else:
+# 	print(c)
 
 
 

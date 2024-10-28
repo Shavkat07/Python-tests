@@ -254,28 +254,58 @@
 # print( (x2, y2) in pairs)
 
 
+# print("Son juft" if int(input()) % 2 == 0 else "Son toq")
 
+# if int(input()) % 2 == 0:
+# 	print(" Son Juft  ")
+#
+# else:
+# 	print("Son toq")
 
+""" vazifa 2 """
 
+# a = 6
+# b = 3
+# c = 7
+#
+# if a > b:
+# 	if a > c:
+# 		print(a)
+# 	else:
+# 		print(c)
+# else:
+# 	if b > c:
+# 		print(b)
+# 	else:
+# 		print(c)
 
+""" vazifa 3 """
 
+# a = 6.5
+# b = 3.4
+# c = 7.6
+#
+# if type(a) == type(b) == type(c) == int:
+# 	print(3)
+# elif type(a) == type(b) == int or type(b) == type(c) == int or type(a) == type(c) == int:
+# 	print(2)
 
+""" Do'st sonlar """
 
+# a = 220
+# b = 284
+#
+# def dust_son(x):
+# 	boluvchilar = []
+# 	for i in range(1, x):
+# 		if x % i == 0:
+# 			boluvchilar.append(i)
+# 	return sum(boluvchilar)
+#
+# if dust_son(a) == b and dust_son(b) == a :
+# 	print("Ha bular dust sonlar")
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+"""  """
 
 
 

@@ -290,10 +290,11 @@
 # elif type(a) == type(b) == int or type(b) == type(c) == int or type(a) == type(c) == int:
 # 	print(2)
 
-""" Do'st sonlar """
-
+# """ Do'st sonlar """
+#
 # a = 220
 # b = 284
+#
 #
 # def dust_son(x):
 # 	boluvchilar = []
@@ -302,10 +303,86 @@
 # 			boluvchilar.append(i)
 # 	return sum(boluvchilar)
 #
-# if dust_son(a) == b and dust_son(b) == a :
+#
+# if dust_son(a) == b and dust_son(b) == a:
 # 	print("Ha bular dust sonlar")
 
-"""  """
+"""  Alghorithm Evklida  """
 
+# def gcd(a, b):  # Ikki sonning eng katta umumiy bo'lubchisini topish
+# 	if a == b:
+# 		return a
+# 	elif a > b:
+# 		return gcd(a-b, b)
+# 	else:
+# 		return gcd(a, b-a)
+#
+# print(gcd(87646, 754))
+# import cv2
+#
+#
+# camera = cv2.VideoCapture(0)
+#
+# a = input()
+#
+# if a == 'Qizil':
+# 	print('Mashinani tuxtat')
+# elif a == "Sariq":
+# 	print("Tayyorlan")
+# elif a == "Yashil":
+# 	print("Gazni bos")
+# else:
+# 	if not camera.isOpened():
+# 		print("Не удалось получить доступ к камере")
+# 	else:
+# 		ret, frame = camera.read()
+#
+# 		if ret:
+#
+# 			cv2.imwrite("snapshot.png", frame)
+# 			print("Снимок сохранен как 'snapshot.png'")
+# 		else:
+# 			print("Не удалось сделать снимок")
+# 	print("KAMERAGA TUSHDING!!!")
+#
+# camera.release()
+
+""" 15 masala """
+# a = 17
+# b = 16
+# c = 15
+#
+# if (a + b) > (a + c) > (b + c):
+# 	print(a, b)
+# elif (a + b) < (a + c) < (b + c):
+# 	print(b, c)
+# elif (a + b) < (a + c) > (b + c):
+# 	print(a, c)
+
+""" 16 masala  """
+
+# a = 11
+# b = 16
+# c = 17
+#
+# if a < b < c:
+# 	a *= 2
+# 	b *= 2
+# 	c *= 2
+# 	print(a, b, c)
+# else:
+# 	print(-a, -b, -c)
+
+# """  """
+# a, b = map(int, input().split())
+# print(a * b if a * b > 2 * (a + b) else 2 * (a + b) )
+# a = "13797"
+#
+# for i in range(len(a)):
+# 	if int(a[i]) % 2 == 0 or len(a) % 2 == 0:
+# 		print("NO")
+# 		break
+# else:
+# 	print("YES")
 
 

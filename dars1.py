@@ -613,18 +613,34 @@
 
 """ Tenglama robocontest """
 
+# a = int(input())
+# b = []
+# c = int(a ** 0.5)
+# i = 2
+# while c != 1:
+# 	if a % i == 0:
+# 		b.append(i)
+# 		c -= 1
+# 		a //= i
+# 	else:
+# 		i += 1
+# 		c -= 1
+#
+# if len(b) < 3:
+# 	print(-1)
+
 a = int(input())
 b = []
-c = int(a ** 0.5)
 i = 2
-while a != 1:
-	if a % i == 0:
+
+while i * i <= a:
+	while a % i == 0:
 		b.append(i)
-		c -= 1
 		a //= i
-		print(a)
-	else:
-		i += 1
+	i += 1
+
+if a > 1:
+	b.append(a)
 
 if len(b) < 3:
 	print(-1)
@@ -632,11 +648,13 @@ else:
 	h = b[1:-1]
 	del b[1:-1]
 	j = 1
-	print(h)
 	for i in h:
 		j *= i
 	b.append(j)
-	print(f"{b[0]} {b[1]} {b[2]}")
+	if b[0] == b[1] or b[1] == b[2] or b[0] == b[2]:
+		print(-1)
+	else:
+		print(f"{b[0]} {b[1]} {b[2]}")
 
 # for i in range(2, c):
 # 	if a % i == 0:
@@ -686,3 +704,19 @@ else:
 # for i in range(1, a+1):
 # 	if a % i == 0:
 # 		b.append(i)
+""" The End """
+
+""" Slides Window Algorithm """
+# a = "abcbada"
+# b = "axbxcxd"
+# c = "aaaaaaa"
+# f = "abcdefg"
+# j = []
+# # for i in b:
+# # 	if i not in j:
+# # 		j.append(i)
+# # 	else:
+# # 		j.append(i)
+# # 		j.pop(0)
+#
+# print(j)

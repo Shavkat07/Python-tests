@@ -925,4 +925,52 @@ print(bin(123),
 # 		b += i
 # print(b)
 
-""" 17 topshiriq """
+import math
+
+# def find_abc(n):
+#     limit = int(n ** (1/3)) + 1  # Ограничиваем a и b до кубического корня из n
+#
+#     for a in range(1, limit):
+#         if n % a != 0:
+#             continue  # Если n не делится на a, переходим к следующему a
+#         for b in range(a + 1, limit):  # b > a, чтобы избежать одинаковых значений
+#             if (n // a) % b != 0:
+#                 continue  # Если n/a не делится на b, пропускаем
+#             c = n // (a * b)  # Вычисляем c
+#             if c > b and a * b * c == n:  # c > b и проверка произведения
+#                 return a, b, c  # Найдено подходящее решение
+#     return -1  # Решение не найдено
+#
+# # Пример вызова функции
+# n = int(input("Введите число n: "))
+# result = find_abc(n)
+# print(result)
+
+
+# def find_divisors(n):
+#     divisors = []
+#     for i in range(2, int(n ** 0.5) + 1):
+#         if n % i == 0:
+#             divisors.append(i)
+#             if i != n // i:
+#                 divisors.append(n // i)
+#     divisors.sort()
+#     return divisors
+#
+# def find_abc(n):
+#     divisors = find_divisors(n)
+#     for i in range(len(divisors)):
+#         a = divisors[i]
+#         for j in range(i + 1, len(divisors)):
+#             b = divisors[j]
+#             c = n // (a * b)
+#             if c > b and a * b * c == n:
+#                 return a, b, c
+#     return -1
+#
+# # Пример использования
+# n = int(input())
+# result = find_abc(n)
+# print(result)
+
+

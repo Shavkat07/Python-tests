@@ -318,6 +318,8 @@
 # 		return gcd(a, b-a)
 #
 # print(gcd(87646, 754))
+
+""" Svetafor faqat qushimcha prikoliyam bor """
 # import cv2
 #
 #
@@ -373,16 +375,314 @@
 # else:
 # 	print(-a, -b, -c)
 
-# """  """
-# a, b = map(int, input().split())
-# print(a * b if a * b > 2 * (a + b) else 2 * (a + b) )
-# a = "13797"
+"""  Misollar 1    """
 #
-# for i in range(len(a)):
-# 	if int(a[i]) % 2 == 0 or len(a) % 2 == 0:
-# 		print("NO")
-# 		break
+# a = 134
+# b = 25
+# c = 3
+# if a > b :
+# 	if a > c:
+# 		print(a)
+# 	else:
+# 		print(c)
 # else:
-# 	print("YES")
+# 	if b > c:
+# 		print(b)
+# 	else:
+# 		print(c)
+
+"""  Misollar 2 """
+
+# yil = 2024
+#
+# print(yil % 4 == 0 and yil % 100 != 0 or yil % 400 == 0)
+
+""" Misollar 3 """
+
+# a = 89
+#
+# if 90 <= a <= 100:
+# 	print("A")
+# elif 80 <= a < 90:
+# 	print("B")
+# elif 70 <= a < 80:
+# 	print("C")
+# elif 60 <= a < 70:
+# 	print("D")
+# else:
+# 	print("F")
+#
+
+""" Misollar 4 """
+
+# temp = 20
+# if 20 > temp:
+# 	print('qish')
+# elif 20 < temp:
+# 	print('yoz')
+# else:
+# 	print('Bahor')
+
+""" Misollar 5 """
+
+# kun = int(input())
+#
+# week = {
+# 	1: 'Dushanba',
+# 	2: 'Seshanba',
+# 	3: 'Chorshanba',
+# 	4: 'Payshanba',
+# 	5: 'Juma',
+# 	6: 'Shanba',
+# 	7: 'Yakshanba'
+# }
+# print(week[kun])
+
+""" Misollar 6 """
+
+# a = input()
+#
+# if a[0] == '9':
+# 	print("Beeline")
+# elif a[0] == '8':
+# 	print('Ucell')
+# elif a[0] == '7':
+# 	print("Uzmobile")
+# else:
+# 	print("NOMA'LUM OPEROTOR")
+#
 
 
+""" Misollar 7 """
+
+# a = int(input())
+#
+# dic = {
+# 	(12, 1, 2): "Qish",
+# 	(3, 4, 5): "Bahor",
+# 	(6, 7, 8): "Yoz",
+# 	(9, 10, 11): "Kuz",
+# }
+#
+# # for i in dic if (a in i) print(dic[i])
+# print( dic[i] if (a in i) else dic for i in dic)
+# print(15 | 22)
+
+""" Vazifa 1 """
+
+# a = int(input())
+# baho = int(input())
+#
+# if a >= 5:
+# 	if baho >= 90:
+# 		print('Mukofot')
+# 	elif baho >= 70:
+# 		print("Ma'qullangan")
+# 	else:
+# 		print("Qoniqarsiz")
+# else:
+# 	if a >= 85:
+# 		print("Mukofot")
+# 	elif a >= 60:
+# 		print("Ma'qullangan")
+# 	else:
+# 		print("Qoniqarsiz")
+
+""" Vazifa 2 """
+
+# yili = int(input())
+# yoshi = int(input())
+#
+# if yili >= 2020:
+# 	if yoshi >= 25:
+# 		print("500$")
+# 	else:
+# 		print('700$')
+# elif yili >= 2015:
+# 	if yoshi >= 25:
+# 		print("600$")
+# 	else:
+# 		print('800$')
+# else:
+# 	if yoshi >= 25:
+# 		print("700$")
+# 	else:
+# 		print('900$')
+
+""" vazifa 3 """
+
+# tajriba = int(input())
+# daraja = int(input())
+#
+# if tajriba >= 10:
+# 	if daraja == "yuqori":
+# 		print(f'bonus 20%')
+#
+# 	elif daraja == "urta":
+# 		print(f'bonus 15%')
+# 	else:
+# 		print(f'bonus 10%')
+# elif tajriba > 5:
+# 	if daraja == "yuqori":
+# 		print(f'bonus 15%')
+# 	else:
+# 		print(f'bonus 10%')
+# else:
+# 	print(f'bonus 5%')
+
+""" vazifa 4 """
+
+# balance = int(input("Balance: "))
+# cart = int(input("Cart: "))
+# if balance >= 10000:
+# 	if  cart == "premium":
+# 		print(f"Limit 5 000$")
+# 	elif cart == "standard":
+# 		print(f"Limit 3 000$")
+# 	else:
+# 		print(f"Limit 2 000$")
+# elif balance > 5000:
+# 	if cart == "premium":
+# 		print(f"Limit 2 500$")
+# 	else:
+# 		print(f"Limit 1 500$")
+# else:
+# 	print("limit 500$")
+
+""" vazifa 5 """
+
+# meva = int(input("Meva Turi: "))
+# miqdor = int(input("Miqdor: "))
+#
+# if meva == "olma":
+# 	if miqdor > 10:
+# 		print(f"skidka 15%")
+# 	else:
+# 		print(f"skidka 10%")
+# elif meva > "banan":
+# 	if miqdor > 5:
+# 		print("skidka 12%")
+# 	else:
+# 		print(f"skidka 8%")
+# else:
+# 	if miqdor > 8:
+# 		print("skidka 10%")
+#
+# 	else:
+# 		print("skidka 5%")
+
+""" vazifa 6 """
+#
+# balance = int(input("Balance: "))
+# cart = int(input("Cart: "))
+#
+# if balance >= 10000:
+# 	if  cart == "premium":
+# 		print(f"Limit 5 000$")
+# 	elif cart == "standard":
+# 		print(f"Limit 3 000$")
+# 	else:
+# 		print(f"Limit 2 000$")
+# elif balance > 5000:
+# 	if cart == "premium":
+# 		print(f"Limit 2 500$")
+# 	else:
+# 		print(f"Limit 1 500$")
+# else:
+# 	print("limit 500$")
+#
+""" vazifa 7 """
+
+# balance = int(input("Balance: "))
+# cart = int(input("Cart: "))
+# if balance >= 10000:
+# 	if  cart == "premium":
+# 		print(f"Limit 5 000$")
+#
+# 	elif cart == "standard":
+# 		print(f"Limit 3 000$")
+# 	else:
+# 		print(f"Limit 2 000$")
+# elif balance > 5000:
+# 	if cart == "premium":
+# 		print(f"Limit 2 500$")
+# 	else:
+# 		print(f"Limit 1 500$")
+# else:
+# 	print("limit 500$")
+
+""" Tenglama robocontest """
+
+a = int(input())
+b = []
+c = int(a ** 0.5)
+i = 2
+while a != 1:
+	if a % i == 0:
+		b.append(i)
+		c -= 1
+		a //= i
+		print(a)
+	else:
+		i += 1
+
+if len(b) < 3:
+	print(-1)
+else:
+	h = b[1:-1]
+	del b[1:-1]
+	j = 1
+	print(h)
+	for i in h:
+		j *= i
+	b.append(j)
+	print(f"{b[0]} {b[1]} {b[2]}")
+
+# for i in range(2, c):
+# 	if a % i == 0:
+# 		b.append(i)
+# 		a //= i
+# if a != 1:
+
+# 	b.append(a)
+# 	print(a)
+# 	for i in b:
+# 		h = b.count(i)
+# 		if h != 1:
+# 			for j in range(h):  b.remove(i)
+# 			b.append(i**h)
+
+
+# print(b)
+
+# while a != 1:
+# 	for i in range(2, a):
+# 		if a % i == 0:
+# 			a //= i
+# 			b.append(i)
+#
+# if len(b) == 2 or len(b) == 1:
+# 	print(-1)
+# else:
+# 	for j in b:
+# 		if b.count(j) == 1:
+# 			jav.append(j)
+# 		else:
+# 			jav.append(j ** b.count(j))
+
+# print(f"{jav[0]} {jav[1]} {jav[2]}")
+
+# n = 0
+# jav = 0
+# while n <= 10:
+# 	jav += n
+# 	n+=1
+# print(jav)
+
+# else:
+# 	for j in b:
+# 		if
+
+# for i in range(1, a+1):
+# 	if a % i == 0:
+# 		b.append(i)

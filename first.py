@@ -968,9 +968,105 @@ import math
 #                 return a, b, c
 #     return -1
 #
-# # Пример использования
+
 # n = int(input())
 # result = find_abc(n)
 # print(result)
 
+"""  1 vazifa  """
+# b = 0
+# while True:
+# 	a = int(input())
+# 	if a == 0:
+# 		print(b)
+# 		break
+# 	else:
+# 		b += a
 
+""" 2 vazifa """
+
+# a = int(input())
+# b = int(input())
+# c = 0
+# while b - a != 0:
+# 	c += a
+# 	a += 1
+#
+# print(c+a)
+""" 3 vazifa  """
+
+# a = []
+# while True:
+# 	a.append(int(input()))
+# 	if 0 in a:
+# 		break
+# print(a)
+
+""" 4 vazifa """
+
+# x = [1, 2, 34, 4, 4, 5, ]
+# a = len(x)
+# b = 0
+# while a != 0:
+# 	if x[-1] < x[b]:
+# 		g = x.pop(b)
+# 		x.append(g)
+# 	else:
+# 		b += 1
+# 	a -= 1
+# print(x[-1])
+
+""" 5 vazifa """
+
+# x = [1, 2, 34, 444, 4, 545, 3, 5, 6, 7, 7, 8, 98, 6, 5, 5, 63455]
+# a = 0
+# i = 0
+# l = len(x)
+# j = 0
+# while l > 0:
+# 	if a < x[i]:
+# 		a = x[i]
+# 		j = i
+# 	i += 1
+# 	l -= 1
+# print(j)
+
+""" 6 vazifa """
+
+# a = input()
+# l = len(a)
+# g = 0
+# while l > 0:
+# 	g += 1
+# 	l -= 1
+# print(g)
+
+"""  """
+
+# a = [1, 2, 3, 4, 5, 6, 7, 8, 7, 5, 4, 3, 2]
+#
+# b = max(a)
+# c = True
+# g = False
+#
+# def compare(x, y):
+# 	if x <= y:
+# 		return True
+# 	else:
+# 		return False
+#
+# for i in range(0, len(a) - 1):
+# 	if a[i] == b or g:
+# 		g = True
+# 		if compare(a[i + 1], a[i]):
+# 			pass
+# 		else:
+# 			c = False
+# 	else:
+# 		if compare(a[i], a[i + 1]):
+# 			pass
+# 		else:
+# 			c = False
+#
+# print(c)
+"""   """

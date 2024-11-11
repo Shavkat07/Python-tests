@@ -629,32 +629,32 @@
 # if len(b) < 3:
 # 	print(-1)
 
-a = int(input())
-b = []
-i = 2
-
-while i * i <= a:
-	while a % i == 0:
-		b.append(i)
-		a //= i
-	i += 1
-
-if a > 1:
-	b.append(a)
-
-if len(b) < 3:
-	print(-1)
-else:
-	h = b[1:-1]
-	del b[1:-1]
-	j = 1
-	for i in h:
-		j *= i
-	b.append(j)
-	if b[0] == b[1] or b[1] == b[2] or b[0] == b[2]:
-		print(-1)
-	else:
-		print(f"{b[0]} {b[1]} {b[2]}")
+# a = int(input())
+# b = []
+# i = 2
+#
+# while i * i <= a:
+# 	while a % i == 0:
+# 		b.append(i)
+# 		a //= i
+# 	i += 1
+#
+# if a > 1:
+# 	b.append(a)
+#
+# if len(b) < 3:
+# 	print(-1)
+# else:
+# 	h = b[1:-1]
+# 	del b[1:-1]
+# 	j = 1
+# 	for i in h:
+# 		j *= i
+# 	b.append(j)
+# 	if b[0] == b[1] or b[1] == b[2] or b[0] == b[2]:
+# 		print(-1)
+# 	else:
+# 		print(f"{b[0]} {b[1]} {b[2]}")
 
 # for i in range(2, c):
 # 	if a % i == 0:
@@ -712,11 +712,173 @@ else:
 # c = "aaaaaaa"
 # f = "abcdefg"
 # j = []
-# # for i in b:
-# # 	if i not in j:
-# # 		j.append(i)
-# # 	else:
-# # 		j.append(i)
-# # 		j.pop(0)
+"""  """
+
 #
+# for i in range(2, 101, 2):	print(f'juft son {i}')
+#
+# for i in range(1, 100, 2): print(f'toq sonlar {i}')
+"""  """
+# a = 0
+# for i in range(100):
+# 	a += i
+# print(a)
+
+
+"""  """
+# a = 0
+# b = 0
+# for i in range(50):
+# 	if i % 2 == 0:
+# 		a += i
+# 	else:
+# 		b += i
+# print(a, b)
+""" 3 """
+# j = 0
+# for i in range(-80, 80):
+# 	if i % 7 == 0:
+# 		j += 1
 # print(j)
+
+""" 4 """
+# j = 0
+# for i in ['olma', 'banan', 'apelsin', 'olma']:
+# 	if i == 'olma':
+# 		j += 1
+# print(j)
+#
+""" 5 """
+
+# a = 2
+# b = 45
+# j = 0
+# t = 0
+#
+# for i in range(a, b):
+# 	if i % 2 ==0:
+# 		j = j + 1
+# 	else:
+# 		t = t + 1
+# print(j, t)
+#
+""" 6  """
+
+# j = 0
+# for i in [1,2,3,4,5,6,6,7,8,8,9,9,6,6,54,4,54,5,75,75,7]:
+# 	if i % 2 == 0:
+# 		j += 1
+# print(j)
+
+""" 7 """
+# a = input()
+# j = 0
+# for i in a:
+# 	if i.isupper():
+# 		j += 1
+# print(j)
+
+"""  """
+# a = int(input())
+# b = a
+# n = int(input())
+#
+# for i in range(n-1):
+# 	a *= b
+# print(a)
+
+"""   2  """
+# a = int(input())
+# b = a
+# n = int(input())
+#
+# for i in range(n):
+# 	print(a)
+# 	a *= b
+
+"""  for 1  """
+# n = int(input())
+# k = int(input())
+#
+# for i in range(n):
+# 	print(k)
+""" for 2 """
+
+# a = 2
+# b = 9
+# h = 0
+# for i in range(a, b+1):
+# 	print(i)
+# 	h += 1
+#
+# print(h)
+
+"""  for 3  """
+
+# a = 2
+# b = 9
+# h = 0
+# for i in range(b-1, a, -1):
+# 	print(i)
+# 	h += 1
+#
+# print(h)
+
+""" for 4 """
+
+# price = int(input())
+#
+#
+# for i in range(1,10):
+# 	print(i*price)
+#
+
+
+""" for 5 """
+
+
+# price = int(input())
+#
+# for i in range(1,11):
+# 	print(i * 0.1 * price)
+
+""" for 6  """
+
+# price = 500
+#
+# for i in range(12, 20, 2):
+# 	print(round(i * 0.1 * price))
+
+""" for 7 """
+
+# a = 1
+# b = 10
+# h = 0
+# for i in range(a, b+1):
+# 	h += i
+#
+# print(h)
+
+""" for 8 """
+
+# a = 1
+# b = 10
+# h = 1
+# for i in range(a, b+1):
+# 	h *= i
+#
+# print(h)
+
+
+
+
+
+
+
+
+
+
+
+
+
+

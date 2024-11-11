@@ -1069,4 +1069,137 @@ import math
 # 			c = False
 #
 # print(c)
-"""   """
+""" 7 masala """
+
+# x = [1, 2, 0, -14, 5, -6]
+# l = len(x)
+# i = 0
+# j = 0
+# k = 0
+# while l > 0:
+# 	if j <= x[i]:
+# 		j = x[i]
+# 	elif k > x[i]:
+# 		k = x[i]
+# 	i += 1
+# 	l-=1
+# print(j)
+# print(k)
+
+""" 8 masala """
+# x = [-2, 31, 104, 51, 19, 7]
+#
+#
+# l = len(x)
+# i = 0
+# j = 0
+# k = 0
+# while l > 0:
+# 	if x[j] <= x[i]:
+# 		j = i
+# 	elif x[k] >= x[i]:
+# 		k = i
+# 	i += 1
+# 	l-=1
+#
+# x[k], x[j] = x[j], x[k]
+#
+# print(x)
+
+""" 9 masala """
+# x = [-2, 31, 104, 51, 19, 7]
+# son = int(input())
+# l = len(x)
+# i = 0
+# j = False
+# while l > 0:
+# 	if x[i] == son:
+# 		j = True
+# 	else:
+# 		j = False
+# 	l -= 1
+# 	i += 1
+#
+# print(j)
+
+""" while 4  """
+
+# n = int(input())
+# k = 0
+#
+# while n != 0:
+# 	if n == 1:
+# 		print("3 ning 0 inchi darajasi")
+# 		break
+# 	n -= 3
+# 	k += 1
+# 	if n < 0:
+# 		print("3 ga bulinmaydi")
+# 		break
+# else:
+# 	k -= 3
+# 	while k > 0 or k == -1:
+# 		k -= 3
+# 		if k < 0:
+# 			print("3 ning darajasi emas")
+# 			break
+# 	else:
+# 		print("3 ning darajasi")
+
+""" 10 masala """
+# a = int(input())
+# b = int(input())
+#
+# ekub = 0
+# m = 1
+# while m >= 0:
+# 	if a % m == 0 or b % m == 0:
+# 		ekub = m
+#
+# 	m += 1
+# print(ekub)
+
+# while a > 1:
+# 	if a % x == 0:
+# 		devisors.append(x)
+# 		a //= x
+# 	else:
+# 		x += 1
+#
+# while b > 1:
+# 	if b % y == 0:
+# 		devisors2.append(y)
+# 		b //= y
+# 	else:
+# 		y += 1
+# l = len(devisors)
+# l2 = len(devisors2)
+#
+# um_devisors = []
+#
+# i = 0
+# while l > 0:
+# 	if devisors[i] in devisors2:
+# 		um_devisors.append(devisors[i])
+# 	i += 1
+# print(devisors)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -836,7 +836,6 @@
 
 """ for 5 """
 
-
 # price = int(input())
 #
 # for i in range(1,11):
@@ -860,7 +859,7 @@
 # print(h)
 
 """ for 8 """
-
+#
 # a = 1
 # b = 10
 # h = 1
@@ -869,16 +868,192 @@
 #
 # print(h)
 
+""" for 9 """
+
+# a = 2
+# b = 7
+# h = 0
+# for i in range(a, b+1):
+# 	h += i ** 2
+# print(h)
+
+""" for 10 """
+
+# n = 5
+# S = 0
+# for i in range(1, n+1):
+# 	S += 1/i
+# print(S)
 
 
+""" for 11 """
+
+# n = 5
+# S = 0
+# for i in range(1, (n+1)*2):
+# 	S += (n+i)**2
+# print(S)
+
+""" for 12 """
+# n = 25
+# j = 1
+#
+# for i in range(10,n+10):
+# 	j *= i * 0.1
+#
+# print(j)
+
+""" for 13 """
+
+# n = 10
+# s = 0
+#
+# for i in range(n):
+# 	s += -0.1
+# print(s)
+""" for 14 """
+
+# n = 6
+# j = 0
+# for i in range(1, 2 * n, 2):
+# 	j += i
+# print(j)
+
+""" for 15 """
+
+# n = 2
+# a = 2
+# s = a
+#
+#
+# for i in range(n-1):
+# 	a *= s
+#
+# print( 1 if n == 0 else a)
 
 
+""" Masalalar No_1 """
+
+# for i in range(1, 10):
+# 	if i % 2 == 1:
+# 		print(i)
+# 		break
 
 
+""" No 2  """
+
+# for i in range(11):
+# 	if i % 2 == 0:
+# 		continue
+# 	else:
+# 		print(i)
+#
 
 
+""" No 3 """
+# while True:
+# 	a = input()
+# 	if a == 'stop':
+# 		break
+# 	else:
+# 		print(1)
 
 
+""" No 4  """
 
+# a = input()
+
+# for i in a:
+# 	if i == 'a':
+# 		break
+# 	else:
+# 		print(i)
+
+""" No 5 """
+# a = map(int, input().split())
+# j = 0
+# for i in a:
+# 	if i < 0:
+# 		continue
+# 	else:
+# 		j += i
+# print(j)
+
+"""  """
+# n = int(input())
+# for i in range(11):
+# 	print(i * n)
+
+""" faktorial """
+
+# a = int(input())
+#
+# j = 1
+# for i in range(1, a+1):
+# 	j *= i
+#
+# print(j)
+
+""" 1 masala  """
+
+# l = [23, 3, 4, 4, 3, 32, 2, 2, 3, 4, 4, 5]
+# print(int(input()) in l)
+
+""" 2 masala """
+
+# for i in range(100, 1000):
+# 	if 5 < i // 100 + i // 10 % 10 + i % 10 < 8:
+# 		print(i)
+
+""" 3 masala  """
+#
+# a = input()
+# print(len(a))
+
+""" 4 masala """
+
+# a = 23, 4, 5, 35, 54, 3, 3
+# g = 0
+#
+# for i in a:
+# 	g += i
+#
+# print(g)
+""" 5 masala """
+
+# a = [3,4,5,56,4,3,3,5,6,6,4,33,3]
+# max_son = 0
+# for i in a:
+# 	if max_son < i:
+# 		max_son = i
+#
+# print(max_son)
+
+""" 6 masala """
+
+# a = [3, 4, 5, -56, 4, -3, -3, 5, 6, 6, 4, 33, 3]
+# min_son = 0
+# for i in a:
+# 	if i < min_son:
+# 		min_son = i
+#
+# print(min_son)
+
+""" 7 masala """
+
+
+#
+# x = 5
+# while 2 + 2 == 4:
+# 	while True:
+# 		break
+# 	x = x - 1
+# 	if x == 2:
+# 		break
+# 	print('S;asdafasdfas')
+# else:
+# 	print('vghjgghjhgjh')
+#
+# print('werw cxg g fgh ')
 
 

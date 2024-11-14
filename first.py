@@ -1187,14 +1187,18 @@ import math
 
 
 
+# write_to_file.py
 
+# Читаем данные из source.py
+# with open("source.py", "r") as source_file:
+# data =
 
-
-
-
-
-
-
+# Открываем target.py для записи данных
+# for i in range(10,20):
+# 	with open("dars1.py", "a") as target_file:
+# 		target_file.write(f'""" for {i} """\n')
+#
+# print("Данные успешно записаны в target.py!")
 
 
 

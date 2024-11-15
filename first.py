@@ -1185,8 +1185,6 @@ import math
 # print(devisors)
 
 
-
-
 # write_to_file.py
 
 # Читаем данные из source.py
@@ -1201,9 +1199,85 @@ import math
 # print("Данные успешно записаны в target.py!")
 
 
+# rows = 5
+# for i in range(1, rows + 1):
+# 	for j in range(1, rows + 1):
+# 		if j <= i:
+# 			print("0", end=' ')
+# 		else:
+# 			print('*', end=' ')
+# 	print()
 
 
+# rows = 6
+# for i in range(1, rows):
+# 	for j in range(1, rows):
+# 		if 1 < i < 5 and (j == rows - i or j == i)and i != :
+# 			print(1, end=' ')
+# 		else:
+# 			print(0, end=' ')
+# 	print()
 
 
+# print("""
+# ****************        **            **
+# **            **        **            **
+# **                      **            **
+# **                      **            **
+# **                      **            **
+# ****************        ****************
+#               **        **            **
+#               **        **            **
+#               **        **            **
+# **            **        **            **
+# ****************        **            **
+# """)
 
 
+# # Определяем количество строк и столбцов
+# rows = 11
+#
+#
+# for i in range(rows):
+#     for j in range(cols):
+#
+#     print()
+
+# print('' .split(' ')
+#
+#
+# print("\033[31mЭтот текст будет красным\033[0m")
+
+""" 1 vazifa """
+
+for i in range(1, 26, 5):
+	for j in range(i, i + 5):
+		if j % 5 == 1 or j % 5 == 0 or 11 < j < 15:
+			print(f"\033[31m{j}\033[0m", end=' ')
+		else:
+			print(j, end=' ')
+	print()
+
+""" 2 vazifa """
+
+for i in range(1, 26, 5):
+	for j in range(i, i + 5):
+		if (j % 5) % 2 == 0 and (j % 5) != 0 and j != 12 and j != 14:
+			print(j, end=' ')
+		else:
+			print(f"\033[31m{j}\033[0m", end=' ')
+	print()
+
+""" 3 masala """
+
+for i in range(1, 6):
+	for j in range(1, 6):
+		if ((j == 1 or j == 5) or j == i or 2 * i == j) and 1 < i < 4:
+			print('*', end=' ')
+		elif j == 1 or j == 5:
+			print('*', end=' ')
+		else:
+			print(' ', end=' ')
+	print()
+
+"""  """

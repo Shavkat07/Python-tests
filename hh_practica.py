@@ -18,21 +18,26 @@
 # result = check_all_students_passed(scores_input, names_input)
 # print(result)
 
+#
+# def classify_triangle(input_string: str) -> str:
+# 	num = list(map(int, input_string.split()))
+# 	num.sort()
+# 	if sum(num[0:2]) > num[2]:
+# 		if num[0] == num[1] and num[1] == num[2]:
+# 			return 'Равносторонний'
+# 		elif num[0] == num[1] or num[1] == num[2] or num[0] == num[2]:
+# 			return "Равнобедренный"
+# 		else:
+# 			return 'Разносторонний'
+# 	else:
+# 		return 'Не треугольник'
+#
+#
+# input_string = input()
+# result = classify_triangle(input_string)
+# print(result)
 
-def classify_triangle(input_string: str) -> str:
-	num = list(map(int, input_string.split()))
-	num.sort()
-	if sum(num[0:2]) > num[2]:
-		if num[0] == num[1] and num[1] == num[2]:
-			return 'Равносторонний'
-		elif num[0] == num[1] or num[1] == num[2] or num[0] == num[2]:
-			return "Равнобедренный"
-		else:
-			return 'Разносторонний'
-	else:
-		return 'Не треугольник'
 
 
-input_string = input()
-result = classify_triangle(input_string)
-print(result)
+
+

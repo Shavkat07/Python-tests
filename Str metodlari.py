@@ -43,39 +43,8 @@ print(g)
 
 
 
-""" Yoshingiz kiritilsa biz uni sitega kirish yoki kirmasligini chiqarishimiz kerak. """
 
 
-# a = int(input(" Son kiriting: "))
-#
-# if a >= 25:
-# 	print(" Sizga mumkin ")
-# elif 25 >= a > 18:
-# 	print(" Sizga ota ona nazoratida mumkin ! ")
-# else:
-# 	print(" Sizga mumkin emas! ")
-
-
-""" kiritilgan sonni juft yoki toq ekanligini toping: """
-
-# son = int(input("soni kiriting "))
-#
-# print(son % 2 == 0)
-
-
-
-# print(type(son))
-
-# if son == 0:
-# 	print("Siz nol kiritingiz!")
-# elif son % 2 == 1:
-# 	print("toq")
-# elif son % 2 == 0:
-# 	print("juft")
-
-# else:
-# 	print("soningiz nol")
-# print("toq")
 
 
 

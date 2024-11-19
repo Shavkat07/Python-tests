@@ -925,8 +925,6 @@ print(bin(123),
 # 		b += i
 # print(b)
 
-import math
-
 # def find_abc(n):
 #     limit = int(n ** (1/3)) + 1  # Ограничиваем a и b до кубического корня из n
 #
@@ -1220,17 +1218,17 @@ import math
 
 
 # print("""
-# ****************        **            **
-# **            **        **            **
-# **                      **            **
-# **                      **            **
-# **                      **            **
-# ****************        ****************
-#               **        **            **
-#               **        **            **
-#               **        **            **
-# **            **        **            **
-# ****************        **            **
+# ****************        **            **             *
+# **            **        **            **            * *
+# **                      **            **           *   *
+# **                      **            **          *     *
+# **                      **            **         *       *
+# ****************        ****************        ***********
+#               **        **            **       *           *
+#               **        **            **      *             *
+#               **        **            **     *               *
+# **            **        **            **    *                 *
+# ****************        **            **   *                   *
 # """)
 
 
@@ -1249,35 +1247,174 @@ import math
 # print("\033[31mЭтот текст будет красным\033[0m")
 
 """ 1 vazifa """
-
-for i in range(1, 26, 5):
-	for j in range(i, i + 5):
-		if j % 5 == 1 or j % 5 == 0 or 11 < j < 15:
-			print(f"\033[31m{j}\033[0m", end=' ')
-		else:
-			print(j, end=' ')
-	print()
-
-""" 2 vazifa """
-
-for i in range(1, 26, 5):
-	for j in range(i, i + 5):
-		if (j % 5) % 2 == 0 and (j % 5) != 0 and j != 12 and j != 14:
-			print(j, end=' ')
-		else:
-			print(f"\033[31m{j}\033[0m", end=' ')
-	print()
+#
+# for i in range(1, 26, 5):
+# 	for j in range(i, i + 5):
+# 		if j % 5 == 1 or j % 5 == 0 or 11 < j < 15:
+# 			print(f"\033[31m{j}\033[0m", end=' ')
+# 		else:
+# 			print(j, end=' ')
+# 	print()
+#
+# """ 2 vazifa """
+#
+# for i in range(1, 26, 5):
+# 	for j in range(i, i + 5):
+# 		if (j % 5) % 2 == 0 and (j % 5) != 0 and j != 12 and j != 14:
+# 			print(j, end=' ')
+# 		else:
+# 			print(f"\033[31m{j}\033[0m", end=' ')
+# 	print()
 
 """ 3 masala """
 
-for i in range(1, 6):
-	for j in range(1, 6):
-		if ((j == 1 or j == 5) or j == i or 2 * i == j) and 1 < i < 4:
-			print('*', end=' ')
-		elif j == 1 or j == 5:
-			print('*', end=' ')
-		else:
-			print(' ', end=' ')
-	print()
+# for i in range(1, 6):
+# 	for j in range(1, 6):
+# 		if ((j == 1 or j == 5) or j == i or 2 * i == j) and 1 < i < 4:
+# 			print('*', end=' ')
+# 		elif j == 1 or j == 5:
+# 			print('*', end=' ')
+# 		else:
+# 			print(' ', end=' ')
+# 	print()
 
-"""  """
+""" Ismimni  chiqarish  """
+
+# height = 7
+# width = 13
+# for i in range(1, 8):
+#
+# 	for j in range(1, 8):
+# 		if i == 1 or i == 4 or i == 7 or (j == 1 and 1 < i < 4) or (j == 7 and 4 < i < 8):
+# 			print("*", end=' ')
+# 		else:
+# 			print(" ", end=' ')
+# 	print("   ", end=' ')
+#
+# 	for j in range(1, 8):
+# 		if j == 1 or j == 7 or i == 4:
+# 			print("*", end=' ')
+# 		else:
+# 			print(" ", end=' ')
+#
+# 	print("   ", end=' ')
+#
+# 	for j in range(width):
+# 		if (j == width // 2 - (i - 1)
+# 				or j == width // 2 + (i - 1)
+# 				or ((i - 1) == height // 2
+# 				    and width // 2 - (i - 1) <= j <= width // 2 + (i - 1))):
+# 			print("*", end='')
+# 		else:
+# 			print(" ", end='')
+#
+# 	print("", end=' ')
+#
+# 	for j in range(1, 14):
+# 		if i == j or i + j == 14:
+# 			print("*", end='')
+# 		else:
+# 			print(" ", end='')
+#
+# 	print("   ", end=' ')
+#
+# 	for j in range(1, 10):
+# 		if i + 4 + j == 10 or j == 1 or i - j == 2:
+# 			print("*", end=' ')
+# 		else:
+# 			print(" ", end=' ')
+#
+# 	print("", end='')
+#
+# 	for j in range(width):
+# 		if (j == width // 2 - (i - 1)
+# 				or j == width // 2 + (i - 1)
+# 				or ((i - 1) == height // 2
+# 				    and width // 2 - (i - 1) <= j <= width // 2 + (i - 1))):
+# 			print("*", end='')
+# 		else:
+# 			print(" ", end='')
+#
+# 	print("   ", end=' ')
+#
+# 	for j in range(1, 8):
+# 		if j == 4 or i == 1:
+# 			print("*", end=' ')
+# 		else:
+# 			print(" ", end=' ')
+#
+# 	print("   ", end=' ')
+# 	print()
+
+"""############################################################"""
+
+# for i in range(1, 6):
+# 	for j in range(1, 6):
+# 		if j == 1:
+# 			print("#", end=" ")
+# 		else:
+# 			print("*", end=" ")
+# 	print()
+
+"""############################################################"""
+#
+# for i in range(1, 8):
+# 	for j in range(1, 8):
+# 		if i == 1 or i == 7 or j == 1 or j == 7:
+# 			print("*", end=" ")
+# 		else:
+# 			print(" ", end=" ")
+#
+# 	print()
+
+"""############################################################"""
+
+# import time
+# import sys
+#
+#
+# def console_animation():
+# 	text = "OPEN"
+# 	while True:
+# 		for i in range(len(text)):
+# 			sys.stdout.write(f"\033[31m\r {text[i:]} {text[:i]}\033[0m")  # Перемещаем часть текста
+# 			sys.stdout.flush()
+# 			time.sleep(0.1)  # Задержка для создания эффекта анимации
+#
+#
+# try:
+# 	console_animation()
+# except KeyboardInterrupt:
+# 	print("\nАнимация остановлена.")
+
+
+"""############################################################"""
+# c = 1
+# for i in range(1, 6):
+# 	for j in range(1, 6):
+# 		if j <= i:
+# 			print(f"\033[31m{c}\033[0m", end=" ")
+# 		else:
+# 			print(c, end=" ")
+# 		if 0 < c < 11:
+# 			print("", end=" ")
+# 		c += 1
+# 	print()
+#
+# print()
+"""############################################################"""
+
+# c = 1
+# for i in range(1, 6):
+# 	for j in range(1, 6):
+# 		if c == 17 or c == 21 or c == 13 or i < j:
+# 			print(c, end=" ")
+# 		else:
+# 			print(f"\033[31m{c}\033[0m", end=" ")
+# 		if 0 < c < 11:
+# 			print("", end=" ")
+# 		c += 1
+# 	print()
+#
+
+

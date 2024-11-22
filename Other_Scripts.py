@@ -131,76 +131,82 @@
 
 
 """  Suzni Har xil ranglarda chiqarish  """
-import os
-import sys
-import time
-from colorama import Fore, Style, init
-
-open = """ 
-***************************************************************************************************************************** 
-*                                                                                                                           *
-*            * * * * * * * * * * *     * * * * * * * * * * *     * * * * * * * * * * *     *                   *            *
-*            *                   *     *                   *     *                         * *                 *            *
-*            *                   *     *                   *     *                         *   *               *            *
-*            *                   *     *                   *     *                         *     *             *            *
-*            *                   *     *                   *     *                         *       *           *            *
-*            *                   *     * * * * * * * * * * *     * * * * * * * * * * *     *         *         *            *
-*            *                   *     *                         *                         *           *       *            *
-*            *                   *     *                         *                         *             *     *            *
-*            *                   *     *                         *                         *               *   *            *
-*            *                   *     *                         *                         *                 * *            *
-*            * * * * * * * * * * *     *                         * * * * * * * * * * *     *                   *            *
-*                                                                                                                           *
-*****************************************************************************************************************************
-
-"""
 
 
-def console_frame():
-	os.system('clear' if os.name == 'posix' else 'CLS')
-	# sys.stdout.write(output + "\n")
-	sys.stdout.flush()
+# import os
+# import sys
+# import time
+# from colorama import Fore, Style, init
+#
+# open = """
+# *****************************************************************************************************************************
+# *                                                                                                                           *
+# *            * * * * * * * * * * *     * * * * * * * * * * *     * * * * * * * * * * *     *                   *            *
+# *            *                   *     *                   *     *                         * *                 *            *
+# *            *                   *     *                   *     *                         *   *               *            *
+# *            *                   *     *                   *     *                         *     *             *            *
+# *            *                   *     *                   *     *                         *       *           *            *
+# *            *                   *     * * * * * * * * * * *     * * * * * * * * * * *     *         *         *            *
+# *            *                   *     *                         *                         *           *       *            *
+# *            *                   *     *                         *                         *             *     *            *
+# *            *                   *     *                         *                         *               *   *            *
+# *            *                   *     *                         *                         *                 * *            *
+# *            * * * * * * * * * * *     *                         * * * * * * * * * * *     *                   *            *
+# *                                                                                                                           *
+# *****************************************************************************************************************************
+#
+# """
+#
+#
+# def console_frame():
+# 	os.system('clear' if os.name == 'posix' else 'CLS')
+# 	# sys.stdout.write(output + "\n")
+# 	sys.stdout.flush()
+#
+#
+# # Инициализация colorama
+# init(autoreset=True)
+#
+#
+# def smooth_color_change(word, colors, delay=0.2, repetitions=10):
+# 	"""
+# 	Плавно меняет цвет слова на консоли.
+#
+# 	:param word: Слово, которое будет отображаться
+# 	:param colors: Список цветов из библиотеки colorama
+# 	:param delay: Задержка между изменениями цвета
+# 	:param repetitions: Количество повторений смены цвета
+# 	"""
+# 	for _ in range(repetitions):
+# 		for color in colors:
+# 			# Удаляем предыдущее слово
+# 			# sys.stdout.write("\r" + " " * len(word))
+# 			console_frame()
+# 			# sys.stdout.flush()
+# 			# Печатаем слово в новом цвете
+# 			sys.stdout.write(f"\r{color}{word}")
+# 			sys.stdout.flush()
+# 			time.sleep(delay)
+#
+#
+# # Список цветов для смены
+# colors = [Fore.RED, Fore.GREEN, Fore.BLUE, Fore.YELLOW]
+#
+# # Слово для демонстрации
+# word = open
+#
+# # Запуск функции
+# smooth_color_change(word, colors)
 
-
-# Инициализация colorama
-init(autoreset=True)
-
-
-def smooth_color_change(word, colors, delay=0.2, repetitions=10):
-	"""
-	Плавно меняет цвет слова на консоли.
-
-	:param word: Слово, которое будет отображаться
-	:param colors: Список цветов из библиотеки colorama
-	:param delay: Задержка между изменениями цвета
-	:param repetitions: Количество повторений смены цвета
-	"""
-	for _ in range(repetitions):
-		for color in colors:
-			# Удаляем предыдущее слово
-			# sys.stdout.write("\r" + " " * len(word))
-			console_frame()
-			# sys.stdout.flush()
-			# Печатаем слово в новом цвете
-			sys.stdout.write(f"\r{color}{word}")
-			sys.stdout.flush()
-			time.sleep(delay)
-
-
-# Список цветов для смены
-colors = [Fore.RED, Fore.GREEN, Fore.BLUE, Fore.YELLOW]
-
-# Слово для демонстрации
-word = open
-
-# Запуск функции
-smooth_color_change(word, colors)
 
 """   OPEN  Animation ni for bilan chiqarish"""
+
+
+
 # import os
 # import time
-
-
+#
+#
 # def loop_write(word: str):
 # 	print(word * 125, f"\n{word}")
 # 	for i in range(1, 12):
@@ -237,7 +243,7 @@ smooth_color_change(word, colors)
 # 		print(" " * 10, word)
 #
 # 	print('\n', word * 125)
-
+#
 #
 # def clear_terminal():
 # 	os.environ['TERM'] = 'xterm'
@@ -256,7 +262,16 @@ smooth_color_change(word, colors)
 # 		time.sleep(0.3)
 # 		clear_terminal()
 # 	else:
-# 		# loop_write("*")
+# 		loop_write("*")
 #
 # 		time.sleep(0.3)
 # 		clear_terminal()
+
+
+
+
+"""  Sticker Man         """
+
+
+
+

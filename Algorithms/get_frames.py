@@ -34,7 +34,7 @@ def video_to_frames(video_path, output_folder):
     print(f"Video split into {frame_count} frames and saved to {output_folder}")
 
 # Пример использования
-video_path = "media/stickman_running.webm"  # Укажите путь к вашему видеофайлу
+video_path = "../media/stickman_running.webm"  # Укажите путь к вашему видеофайлу
 output_folder = "frames"         # Папка для сохранения кадров
 video_to_frames(video_path, output_folder)
 

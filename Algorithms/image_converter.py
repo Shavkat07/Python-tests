@@ -4,7 +4,7 @@ import time
 
 # Расширенный набор символов (11 символов для большей детализации)
 ASCII_CHARS = "@#%*+=-:. "
-contents = os.listdir("frames/")
+contents = os.listdir("../frames/")
 
 def clear_terminal():
 	os.environ['TERM'] = 'xterm'

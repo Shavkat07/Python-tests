@@ -270,8 +270,9 @@
 
 
 
-"""  Sticker Man         """
+"""   """
+a = {0: "adfsf"}
 
-
+print(a[0])
 
 

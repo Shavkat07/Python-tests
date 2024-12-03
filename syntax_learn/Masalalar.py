@@ -1416,5 +1416,270 @@ print(bin(123),
 # 		c += 1
 # 	print()
 #
+"""###############################################################"""
+
+"""  Array 1 """
+# a = []
+# n = 7
+#
+# for i in range(1 + n*2):
+# 	if i % 2 == 1:
+# 		a.append(i)
+#
+#
+# print(a)
+# print(len(a))
+""" Array 2  """
+
+# n = 5
+# a = []
+# for i in range(1, n+1):
+# 	a.append(2 ** i)
+# print(a)
+
+""" Array 3 """
+
+# d = 2
+# a = 6
+# n = 6
+# j = []
+# def recursion_progressiya(a, d, n):
+# 	if n == 0:
+# 		return
+# 	n -= 1
+# 	j.append(a)
+# 	return recursion_progressiya(a+d, d, n)
+# recursion_progressiya(a, d, n)
+# print(j)
+
+""" Array 4 """
+# n = 6
+# a = 5
+# d = 3
+# j = []
+# def recursion_progressiya(a, d, n):
+# 	if n == 0:
+# 		return
+# 	n -= 1
+# 	j.append(a)
+# 	return recursion_progressiya(a*d, d, n)
+# recursion_progressiya(a, d, n)
+
+# print(j)
 
 
+""" Array 5 """
+
+# n = 6
+# j = []
+# def fibonacci(a, b, n):
+# 	j.append(a)
+# 	a, b = a + b, a
+# 	if n <= 0:
+# 		return j
+# 	n -= 1
+#
+# 	return fibonacci(a, b, n)
+#
+# print(fibonacci(0, 1, n))
+
+""" Array 7 """
+
+# n = 5
+# l = [1,2,3,4,5,6,4,2,3,5,6,5,3,32,4,6,67,7]
+#
+# for i in l[-1::-1]:
+# 	l.append(i)
+#
+# print(l)
+
+""" Array 8 """
+
+# l = [4,5,7,8,6,9]
+# b = []
+# for i in l:
+# 	if i% 2 == 1:
+# 		b.append(i)
+#
+# print(b, len(b))
+
+""" Array 9 """
+
+# l = [4, 5, 7, 8, 6, 9]
+# b = []
+# for i in l:
+# 	if i % 2 == 0:
+# 		b.append(i)
+#
+# print(b[-1::-1], len(b))
+""" Array 10 """
+
+# l = [4, 5, 7, 8, 6, 9]
+# toq = []
+# juft = []
+#
+# for i in l:
+# 	if i % 2 == 0:
+# 		juft.append(i)
+# 	else:
+# 		toq.append(i)
+# print(juft, toq[-1::-1])
+
+""" Array 11 """
+
+# a = [1,2,4,5,6,6,4,3,2,34,65]
+# k = 3
+#
+# for i in a[k::k]:
+# 	print(i)
+
+
+""" Array 12 """
+# z = 55555555555
+#
+# counter = 0
+# if z < 0:
+# 	for a in range(z, -z):
+# 		for b in range(z, -z+1):
+# 			if a * b == z and a <= b:
+# 				counter += 1
+# 				print(a, b)
+# 	print(counter)
+#
+# elif z == 0:
+# 	print(-1)
+# else:
+# 	for a in range(-z, z):
+# 		for b in range(-z, z+1):
+# 			if a * b == z and a <= b:
+# 				counter += 1
+# 				print(a, b)
+# 	print(counter)
+
+""" Array 13 """
+
+# a = [1,3,4,5234,234,234,234,23,42,4,1,657,5677]
+# b = [7,5,4,23,3,34,23,23,2,34,54,76,89,98,78]
+# c = [4,5,4,2,2,4,5,6,6,5,4,4,3,4,55]
+# g = a + b + c
+# print(g)
+
+""" Array 3 """
+
+# d = {1,2,23,4,4,5,2,3,6,6}
+#
+# d.remove(23)
+#
+# print(d)
+
+""" Array 4 """
+
+# d = {1, 2, 3, 4, 5, 6, 23}
+# f = {66, 5, 7, 8, 77, 478}
+#
+# a = d.union(f)
+#
+# # print(a)
+# # print(d)
+# print(f)
+""" Array 5 """
+
+# d = {1, 2, 3, 7, 4, 5, 6, 23}
+# f = {66, 5, 7, 8, 77, 478}
+
+# max(d)
+# print(min(d))
+
+""" Array 6 """
+
+# d = {1, 2, 3, 7, 4, 5, 6, 23}
+
+# d.add(4556)
+
+# d.remove(4556)
+# print(d)
+
+""" Array 7 """
+
+# d = {1, 2, 3, 7, 4, 5, 6, 23}
+# f = {66, 5, 7, 8, 77, 478}
+# j = 1
+# for i in d:
+# 	j *= i
+
+# print(d.symmetric_difference(f))
+
+""" Array 8 """
+# d = {1, 2, 3, 7, 4, 5, 6, 23}
+# f = {66, 5, 7, 8, 77, 478}
+# j = 1
+# for i in d:
+# 	j *= i
+
+# print(j)
+
+""" Array 9 """
+# d = {1,3,5,5,97,986,8,8}
+# f = {66, 5, 7, 8, 77, 478}
+#
+#
+#
+# print(len(d) == 0)
+
+
+""" Array 10 """
+
+# d = {1,3,5,5,97,986,8,8}
+# f = {66, 5, 7, 8, 77, 478}
+
+# print(len(d))
+
+""" Functions  """
+
+# n = 10
+# l = [0]
+#
+#
+# def fibonacci(x):
+# 	a = 0
+# 	b = 1
+# 	for i in range(x - 1):
+# 		a, b = b, a + b
+# 		l.append(a)
+# 	return a
+#
+#
+#
+# print(fibonacci(n+1))
+# print(l)
+
+
+# if x == 1:
+# 	return 0
+# if x == 2:
+# 	return 1
+#
+# return fibonacci(x - 1) + fibonacci(x - 2)
+
+
+# print(fibonacci(10))
+# print(l)
+
+#################################################
+
+""" 5 misol """
+
+#
+# def RectPS(x1, y1, x2, y2):
+# 	a1, a2 = x1, y1
+# 	b1, b2 = x2, y1
+# 	c1, c2 = x1, y2
+# 	d1, d2 = x2, y2
+#
+# 	A = a2
+# 	B =
+#
+# 	print(a1, a2, '\n',  b1, b2,'\n', c1, c2,'\n', d1, d2)
+#
+#
+# RectPS(2, 1, 5,6)

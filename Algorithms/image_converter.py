@@ -7,7 +7,6 @@ ASCII_CHARS = "@#%*+=-:. "
 contents = os.listdir("../frames/")
 
 def clear_terminal():
-	os.environ['TERM'] = 'xterm'
 	command = 'cls' if os.name == 'nt' else 'clear'
 	os.system(command)
 

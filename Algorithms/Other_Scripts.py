@@ -267,12 +267,10 @@
 # 		time.sleep(0.3)
 # 		clear_terminal()
 
-
-
-
 """   """
-a = {0: "adfsf"}
 
-print(a[0])
+# a = {0: "adfsf"}
+#
+# print(a[0])
 
 

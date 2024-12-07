@@ -1683,3 +1683,66 @@ print(bin(123),
 #
 #
 # RectPS(2, 1, 5,6)
+
+""" 2 misol  """
+
+# l = [3,2,2,3,4,5,5,4,3,45,46,898]
+# g = filter(lambda x: x % 2 ==0, l)
+# print(list(g))
+
+""" 3 misol """
+
+# k = [ {'key': 5}, {'key': 6}, {'key': 7}, {'key': 8}, {'key': 9} ]
+
+# data = []
+# h = filter(lambda x: x['key'] == 5, k)
+
+# print(list(h))
+
+""" 5 misol """
+
+# l = ["Abror", "Asad", "Shavkat", "Aziz", "Axror"]
+
+# h = filter(lambda x: x.startswith("A"), l)
+
+# print(list(h))
+
+""" 6 misol """
+
+# l = [12000, 34000, 54000, 76000]
+#
+# j = map(lambda x: x + x / 10, l)
+#
+# print(list(j))
+
+""" 7 misol """
+
+# l = ['sdf', 'asdfg', 'sdfg', 'ertyer']
+
+# j = map(lambda x:  x.capitalize() , l)
+
+# print(list(j))
+
+""" 9 misol """
+
+# l = [234, 34, 4, 897, 7, 7, 45, 3, 34, 23]
+#
+# h = sorted(l)
+#
+# print(h)
+
+""" 10 misol """
+
+# l = [234, 34, 4, 897, 7, 7, 45, 3, 34, 23]
+
+
+
+""" 11 misol """
+
+
+
+""" 12 misol """
+
+
+""" 13 misol """
+

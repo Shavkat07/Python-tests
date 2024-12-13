@@ -20,3 +20,5 @@
 # a = input("malumot: ")
 #
 # print(type(a))
+
+

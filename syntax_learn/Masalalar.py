@@ -1738,11 +1738,106 @@ print(bin(123),
 
 
 """ 11 misol """
+import math
+import random
+# d = random.randint(1, 124)
+# print(math.ceil(1.49))
+# print(math.floor(1.9))
+# print(d)
+
+""" 6 misol """
+# a = random.randint(1, 50)
+#
+# for i in range(5):
+# 	son = int(input())
+# 	if son > a:
+# 		print("Son Kichikroq")
+# 	elif son < a:
+# 		print("Son Kattaroq")
+# 	else:
+# 		print("Topdiz")
+
+
+"""  misol """
+
+# print(" ".join(map(str, [x for x in range(2, int(input("Введите число n: ")) + 1) if all(x % d != 0 for d in range(2, int(x**0.5) + 1))])))
+#
+
+""" 1 misol """
+# a = input("Name: ")
+#
+# talabalar = {
+# 	"John": 23,
+# 	"Mary": 22,
+# 	"Bob": 21,
+# 	"Anna": 20,
+# 	"Peter": 19
+#
+# }
+#
+# print(talabalar.get(a))
+#
+""" 2 misol """
+
+# l = [1,3,4,556,87,43,5,3,3,5,6,6,7,4,3]
+#
+# print(max(l))
+# print(min(l))
+
+"""3 misol """
+
+# a = "Hello World"
+#
+# print(a[::-1])
+
+""" 4 misol """
+#
+# matn = "Hello World my name is Shavkat"
+#
+# print(len(matn.split()))
+
+""" 5 misol """
 
 
 
-""" 12 misol """
+""" 6 misol """
+
+# import turtle
+# import math
+#
+# t = turtle.Turtle()
+# t.speed(0)
+# t.color("red")
+# turtle.bgcolor("black")
+#
+# def corazon(n):
+#     x = 16 * math.sin(n) ** 3
+#     y = 13 * math.cos(n) - 5 * \
+#         math.cos(2*n) - 2*math.cos(3*n) - \
+#         math.cos(4*n)
+#     return x, y
+#
+# t.penup()
+# for i in range(15):
+#     t.goto(0, 0)
+#     t.pendown()
+#     for n in range(0, 100, 2):
+#         x, y = corazon(n/10)
+#         t.goto(x*i, y*i)
+#     t.penup()
+#
+# t.hideturtle()
+# turtle.done()
 
 
-""" 13 misol """
-
+# import matplotlib.pyplot as plt
+#
+# # Example: Draw a circle
+# circle = plt.Circle((0.5, 0.5), 0.4, fill=True, color="blue")
+# fig, ax = plt.subplots()
+#
+# ax.add_artist(circle)
+# ax.set_xlim(0, 1)
+# ax.set_ylim(0, 1)
+# ax.set_aspect('equal')
+# plt.show()

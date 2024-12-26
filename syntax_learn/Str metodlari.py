@@ -42,6 +42,14 @@ print(g)
 # 	print("Sizga mumkin emas !")
 
 
+# def factorial(a):
+# 	if a == 1:
+# 		return 1
+#
+# 	return a * factorial(a - 1)
+#
+# print(factorial(5))
+# print([i for i in range(1, 11)])
 
 
 

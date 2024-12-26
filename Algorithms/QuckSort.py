@@ -24,6 +24,7 @@ def quick_sort(arr):
 		arr[k] = i
 		k += 1
 
-	print(arr)
+	return(arr)
 
 print(quick_sort([23, 46, 45, 65, 423, 334, 53, 43, 53, 42, 34, 24, 12]))
+

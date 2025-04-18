@@ -117,25 +117,86 @@
 # from abc import ABC, abstractmethod
 
 
+# list_of_students = []
+#
+#
+# class University:
+#
+# 	def add_student(self):
+# 		pass
+#
+#
+# class PDP(University):
+#
+# 	def add_student(self):
+# 		while True:
+#
+# 			self.first_name = input("Enter First Name: ")
+# 			self.last_name = input("Enter Last Name: ")
+# 			if self.first_name == "stop" or self.last_name == "stop":
+# 				print("Process stopped")
+# 				print(list_of_students)
+# 				break
+# 			else:
+# 				list_of_students.append([self.first_name, self.last_name])
+#
+# 				print(self.first_name + " " + self.last_name + " student qo'shildi")
+#
+#
+# pdp = PDP()
+# pdp.add_student()
+import os
+import zipfile
 
+# Define folder structure
+para_structure = {
+    "PARA": {
+        "1 - Projects": {
+            "Project - FastAPI Study Plan": ["plan.md", "tasks.md", "log.md"],
+            "Project - Build Portfolio Site": ["plan.md", "tasks.md", "log.md"],
+            "Project - DevOps Lab": ["plan.md", "tasks.md", "log.md"]
+        },
+        "2 - Areas": {
+            "Area - Career Development": [],
+            "Area - Learning Schedule": [],
+            "Area - Portfolio Management": []
+        },
+        "3 - Resources": {
+            "Resource - Python Async": [],
+            "Resource - PostgreSQL": [],
+            "Resource - Docker": [],
+            "Resource - Microservices Architecture": [],
+            "Resource - Git & CI-CD": []
+        },
+        "4 - Archives": {
+            "Archived Projects": []
+        }
+    }
+}
 
+# Create folders and files in a temp directory
+base_path = "/Obsidian_PARAVault"
+os.makedirs(base_path, exist_ok=True)
 
+def create_structure(base, structure):
+    for name, content in structure.items():
+        path = os.path.join(base, name)
+        os.makedirs(path, exist_ok=True)
+        if isinstance(content, dict):
+            create_structure(path, content)
+        else:
+            for file in content:
+                with open(os.path.join(path, file), 'w') as f:
+                    f.write(f"# {file.replace('.md', '').capitalize()}\n\n")
 
+create_structure(base_path, para_structure)
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+# Zip the folder
+zip_path = "/Obsidian_PARAVault.zip"
+with zipfile.ZipFile(zip_path, 'w', zipfile.ZIP_DEFLATED) as zipf:
+    for root, dirs, files in os.walk(base_path):
+        for file in files:
+            file_path = os.path.join(root, file)
+            arcname = os.path.relpath(file_path, base_path)
+            zipf.write(file_path, arcname)
 

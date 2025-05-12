@@ -1065,211 +1065,42 @@
 # 		print(c, end=" ")
 # 		c += 2
 # 	print()
-
-a = {1,2,3,4,5,6}
-b = {1,2,3,4,5,6,7,8,9,10,11}
-c = a.difference(b)
-# b = c
-# for i in c:
-# 	print(i)
-print(a)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-a = {2,34,5,6,3,32,3,2,4,5,}
-b = {4.3433,4,4,4,3,3,5,5,3,33}
+#
+# a = {1,2,3,4,5,6}
+# b = {1,2,3,4,5,6,7,8,9,10,11}
+# c = a.difference(b)
+# # b = c
+# # for i in c:
+# # 	print(i)
+# print(a)
+#
+#
+# a = {2,34,5,6,3,32,3,2,4,5,}
+# b = {4.3433,4,4,4,3,3,5,5,3,33}
 
 
 # a | b
 # print(a.union(b))
 # print(a | b)
 # print(a.intersection(b))
+
+""" ############################################################# """
+"""  Task about convert string(avvvvsssssddffff) to (a1v4s5d2f4)  """
+
+def char_counter(word: str):
+	counter = 0
+	previous_letter = word[0]
+	answer = ''
+	for i in word:
+		if i == previous_letter:
+			counter += 1
+		else:
+			answer += previous_letter + str(counter)
+			counter = 1
+		previous_letter = i
+	answer += previous_letter + str(counter)
+
+	return answer
+
+print(char_counter("avvvvsssssddffff"))
+
